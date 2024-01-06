@@ -1,0 +1,233 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+  body{
+    font-family: Open Sans;  
+  }
+  .btn-primary{
+    border-radius: 5px;
+    background: #fa6800;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    transition: 1s;
+  }
+  .btn-primary:hover{
+    background: rgba(253, 111, 10, 0.452);
+    color: #fa6800;
+  }
+  .orange{
+    color:#FD6E0A;
+  }
+/*          nav style         */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+    padding-top: 30px;
+}
+.nav-title{
+color: #1d1b1b;
+font-size: 45px;
+font-weight: 800;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    color: #474747;
+    text-decoration: none;
+}
+
+/*   header  style    */
+
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    padding: 30px 30px 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .profile{
+    width: 600px;
+    height: 650px;
+}
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 75px;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+/*  main section style   */
+
+main{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+}
+.about{
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px;
+    margin: 130px 0;
+}
+.section-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+    margin-top: 30px;
+}
+.info-title{
+    color: #5a5959;
+    font-size: 20px;
+}
+.info-description{
+    color: #0a0a0a;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/*       Skills Style    */
+
+#description{
+    padding: 0 150px 30px 150px;
+    text-align: center;
+    color: #5a5959;
+}
+.skills-container{
+   display: flex;
+   gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff9f9;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-title{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.skill-discription{
+    color: #5a5959;
+    margin-top: 10px;
+}
+
+/*   Resume    Section    */
+
+.resume-title{
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-iteme-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+    margin-top: 20px;
+}
+.rusume-iteme-instetute{
+    color: rgb(117, 117, 117);
+    font-size: 17px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.resume-iteme-discription{
+    color: #afadad;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.resume-container hr{
+    margin: 30px 0;
+}
+.downlod-cv{
+    text-align: center;
+    margin: 50px 0;
+}
+
+/*    footer   style   */
+
+footer{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 100px 150px;
+    margin-top: 100px;
+}
+.footer-colum{
+   width: 50%;
+}
+.footer-colum .section-title{
+    text-align: left;
+}
+.contact input[type="text"],.contact input[type="email"],textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background:#FFF;
+    border: 0;
+    width: 100%;
+}
+.section-discription{
+    margin-bottom: 30px;
+}
+.social-links a{
+    margin-right: 25px;
+    padding-top: 10px;
+}
